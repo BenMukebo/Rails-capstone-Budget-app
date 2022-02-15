@@ -221,6 +221,11 @@ $  bundle exec rspec ./spec/features/post_show_spec.rb
 $  bundle exec rspec ./spec/features/user_post_index_spec.rb  
 ```
 
+rails generate devise:install
+rails g devise:views  
+
+rails generate devise user    
+
 ## Built With
 
 This project is build with:
